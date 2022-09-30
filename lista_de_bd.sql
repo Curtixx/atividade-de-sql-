@@ -1,7 +1,7 @@
-#create database carros2;
-#use carros2;
+create database carros2;
+use carros2;
 
-/*
+
 create table veiculo(
 	placa varchar(7) not null primary key ,
     marca enum ('fiat','chevrolet','volkswagen','ford') not null,
@@ -61,4 +61,3 @@ select * from veiculo;
 select placa, marca, modelo, cor from veiculo;
 
 select  (hora_saida - hora_entrada)/10000  from estacionamento;
-*/
